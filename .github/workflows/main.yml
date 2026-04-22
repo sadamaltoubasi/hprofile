@@ -6,7 +6,7 @@ env:
  ECS_SERVICE: vproapptask-service-jrpb19zl
  ECS_CLUSTER: vproappstaging
  ECS_TASK_DEFINITION: aws-files/taskdeffile.json
- CONTAINER_NAME: vprofileapp
+ CONTAINER_NAME: app01
 jobs: 
   Testing:
     runs-on: ubuntu-latest
